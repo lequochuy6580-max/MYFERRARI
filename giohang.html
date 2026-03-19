@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart - Ferrari E-Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="site-header"></header>
+
+<script>
+  document.getElementById("site-header").innerHTML = `
+    <h1>My Ferrari Collection</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="giohang.html" class="active">Cart</a>
+      <a href="checkout.html">Checkout</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  `;
+</script>
+
+  <main id="giohang">
+     <h2 class="fade-in">🛒 Your Shopping Cart</h2>
+    <div class="cart-header">
+      <span>Image</span>
+      <span>Product</span>
+      <span>Price</span>
+      <span>Quantity</span>
+      <span>Subtotal</span>
+      <span>Action</span>
+    </div>
+    <div id="giohang"></div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/footer.js"></script>
+
+</body>
+</html>

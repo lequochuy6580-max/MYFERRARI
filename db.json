@@ -1,0 +1,251 @@
+{
+  "loai": [
+    {
+      "id": "2",
+      "ten_loai": "hyper car le mans"
+    },
+    {
+      "id": "3",
+      "ten_loai": "classic"
+    },
+    {
+      "id": 4,
+      "ten_loai": "ferrari gto class"
+    },
+    {
+      "id": 5,
+      "ten_loai": "hybird class"
+    },
+    {
+      "id": 6,
+      "ten_loai": "gte class"
+    },
+    {
+      "id": 7,
+      "ten_loai": "old leman car"
+    },
+    {
+      "id": 8,
+      "ten_loai": "gte class"
+    }
+  ],
+  "products": [
+    {
+      "name": "Ferrari SF90 Stradale",
+      "price": 500000,
+      "desc": "classic",
+      "image": "media/sf90.1.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Ferrari Portofino M",
+      "price": 2150000,
+      "desc": "hyper car",
+      "image": "media/f8.1.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Ferrari 812 Superfast",
+      "price": 3300000,
+      "discount": 0,
+      "sale_price": null,
+      "description": "Front-engine V12 grand tourer.",
+      "category": "modern",
+      "image": "media/sf90.2.jpg",
+      "video": "media/f8.mp4",
+      "featured": true,
+      "parent_id": null,
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "name": "Ferrari LaFerrari",
+      "price": 3500000,
+      "description": "Hybrid hypercar.",
+      "image": "media/wp1863671-ferrari-laferrari-wallpapers.jpg",
+      "video": "media/laferrari.mp4",
+      "featured": true
+    },
+    {
+      "id": "9",
+      "name": "Ferrari Monza SP1",
+      "price": 1900000,
+      "description": "Limited edition speedster.",
+      "image": "media/f40.3.jpg",
+      "video": "media/f40.mp4",
+      "featured": true
+    },
+    {
+      "id": "10",
+      "name": "Ferrari California T",
+      "price": 2000000,
+      "description": "Convertible grand tourer.",
+      "image": "media/f430.4.jpg",
+      "video": "media/f8.2.mp4",
+      "featured": true
+    },
+    {
+      "id": "11",
+      "name": "Ferrari Enzo",
+      "price": 3000000,
+      "description": "Limited edition supercar.",
+      "image": "media/enzo.3.webp",
+      "video": "media/enzo.mp4",
+      "featured": true
+    },
+    {
+      "name": "Ferrari Dino 246 GT",
+      "price": 1200000,
+      "discount": 0,
+      "sale_price": null,
+      "description": "Classic mid-engine sports car.",
+      "category": "classic",
+      "image": "media/enzo.1.jpg",
+      "video": "media/f40.mp4",
+      "featured": true,
+      "parent_id": null,
+      "id": "12"
+    },
+    {
+      "id": "13",
+      "name": "Ferrari 488 GTB",
+      "price": 2620000,
+      "description": "Mid-engine V8 sports car.",
+      "image": "media/f488.3.jpg",
+      "video": "media/488.mp4",
+      "featured": true
+    },
+    {
+      "id": "14",
+      "name": "Ferrari F12berlinetta",
+      "price": 3300000,
+      "description": "Front-engine V12 grand tourer.",
+      "image": "media/sf90.3.jpg",
+      "video": "media/sf90.mp4",
+      "featured": true
+    },
+    {
+      "id": "15",
+      "name": "Ferrari 599 GTB Fiorano",
+      "price": 3100000,
+      "description": "Front-engine V12 grand tourer.",
+      "image": "media/f40.4.jpg",
+      "video": "media/f40.mp4",
+      "featured": true
+    },
+    {
+      "id": "16",
+      "name": "Ferrari 458 Italia",
+      "price": 2400000,
+      "description": "Mid-engine V8 sports car.",
+      "image": "media/f430.1.jpg",
+      "video": "media/f430.mp4",
+      "featured": true
+    },
+    {
+      "id": "17",
+      "name": "Ferrari F355",
+      "price": 900000,
+      "description": "Classic mid-engine sports car.",
+      "image": "media/enzo.5.jpg",
+      "video": "media/enzo.mp4",
+      "featured": true
+    },
+    {
+      "name": "Ferrari SF90 Stradale gt",
+      "price": 5000000,
+      "discount": 20,
+      "sale_price": 4000000,
+      "description": "Limited edition hybrid.",
+      "image": "media/sf90.4.jpg",
+      "video": "media/sf90.mp4",
+      "featured": false,
+      "parent_id": "4",
+      "id": "cb3b"
+    },
+    {
+      "id": "41d5",
+      "name": "Ferrari 268 GTO",
+      "price": 6000000,
+      "discount": 0,
+      "sale_price": null,
+      "description": "Classic masterpiece.",
+      "category": "classic",
+      "image": "media/f40.2.jpg",
+      "video": "media/f40.mp4",
+      "featured": true,
+      "parent_id": null
+    },
+    {
+      "id": "2a8e",
+      "name": "ferrari",
+      "price": 5000000,
+      "desc": "High performance",
+      "image": "media/dayota.1.jpg",
+      "id_loai": 1
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Lịch Sử Ferrari: Từ Passion Đến Huyền Thoại",
+      "author": "Ferrari News",
+      "date": "2024-01-15",
+      "image": "media/sf90.1.jpg",
+      "category": "Lịch sử",
+      "excerpt": "Khám phá hành trình 75 năm của Ferrari từ những ngày đầu tiên cho đến hiện tại...",
+      "content": "Ferrari được thành lập năm 1947 bởi Enzo Ferrari, một huyền thoại trong thế giới ô tô. Từ những chiếc xe đua đầu tiên cho đến các siêu xe hiện đại, Ferrari luôn biểu tượng cho sự hoàn hảo, công nghệ tiên tiến và đam mê vô hạn.\n\nNhững chiếc xe Ferrari đầu tiên được xây dựng trong xưởng nhỏ tại Modena, Italy. Với mỗi chiếc xe, Enzo Ferrari đều đổ hết tâm huyết và kỹ năng cao nhất. Không chỉ tập trung vào hiệu suất, Ferrari còn chú trọng đến thiết kế và trải nghiệm của người lái.\n\nQua các thập kỷ, Ferrari đã tham gia và thắng thế ở nhiều giải đua nổi tiếng thế giới, bao gồm Formula 1 và Le Mans. Những chiến thắng này đã góp phần xây dựng danh tiếng của thương hiệu.\n\nHôm nay, Ferrari vẫn tiếp tục đổi mới và phát triển, kết hợp truyền thống với công nghệ hiện đại để tạo ra những siêu xe tuyệt vời nhất trên thế giới."
+    },
+    {
+      "id": 2,
+      "title": "Ferrari SF90 Stradale: Tương Lai của Siêu Xe Hybrid",
+      "author": "Automotive Review",
+      "date": "2024-02-20",
+      "image": "media/sf90.2.jpg",
+      "category": "Công nghệ",
+      "excerpt": "SF90 Stradale là bước ngoặt lớn cho Ferrari khi lần đầu tiên sử dụng công nghệ hybrid...",
+      "content": "Ferrari SF90 Stradale là bước tiến quan trọng trong lịch sử của Ferrari. Đây là mẫu siêu xe đầu tiên của Ferrari sử dụng động cơ hybrid, kết hợp giữa động cơ V12 và hai động cơ điện.\n\nVới công suất vượt quá 1000 mã lực, SF90 Stradale có khả năng tăng tốc từ 0 đến 100 km/h chỉ trong 2.5 giây. Thiết kế của nó vừa tôn trọng truyền thống Ferrari vừa thể hiện tương lai công nghệ.\n\nHệ thống hybrid không chỉ cung cấp hiệu suất cao mà còn giảm lượng khí thải, phù hợp với những yêu cầu môi trường ngày càng nghiêm ngặt.\n\nSF90 Stradale được coi là một bước ngoặt quan trọng, mở đường cho các mẫu hybrid tiếp theo của Ferrari, đồng thời khẳng định cam k承承 của Ferrari trong việc đổi mới công nghệ động cơ."
+    },
+    {
+      "id": 3,
+      "title": "Ferrari LaFerrari: Hypercar Huyền Thoại",
+      "author": "Luxury News",
+      "date": "2024-03-10",
+      "image": "media/wp1863671-ferrari-laferrari-wallpapers.jpg",
+      "category": "Siêu xe",
+      "excerpt": "LaFerrari là đỉnh cao của công nghệ Ferrari, được sản xuất giới hạn chỉ 500 chiếc...",
+      "content": "LaFerrari là siêu xe đặc biệt nhất mà Ferrari từng sản xuất. Được tạo ra để kỷ niệm 70 năm thành lập, LaFerrari chỉ được sản xuất 500 chiếc trên toàn thế giới.\n\nVới động cơ V12 hybrid mạnh 963 mã lực, LaFerrari có khả năng đạt vận tốc tối đa 370 km/h. Nó không chỉ là một siêu xe về công suất mà còn một tác phẩm nghệ thuật di động.\n\nMỗi chiếc LaFerrari được chế tạo theo yêu cầu riêng của chủ nhân, với sự lựa chọn về màu sắc, vật liệu nội thất và các tính năng đặc biệt. Điều này làm cho mỗi chiếc LaFerrari là duy nhất.\n\nGiá trị của LaFerrari không chỉ nằm ở những con số về hiệu suất mà còn ở sự hiếm có, tính độc quyền và di sản công nghệ mà nó đại diện."
+    },
+    {
+      "id": 4,
+      "title": "Ferrari Enzo: Huyền Thoại Đã Qua",
+      "author": "Classic Cars",
+      "date": "2024-04-05",
+      "image": "media/enzo.3.webp",
+      "category": "Lịch sử",
+      "excerpt": "Enzo Ferrari là tác phẩm được đặt tên theo nhà sáng lập, đại diện cho thời kỳ vàng của siêu xe...",
+      "content": "Ferrari Enzo được đặt tên theo tên nhà sáng lập Enzo Ferrari, là một trong những siêu xe mang tính biểu tượng nhất trong lịch sử. Được sản xuất từ 2002 đến 2004, chỉ 400 chiếc Enzo được tạo ra.\n\nVới động cơ V12 6.0L có công suất 660 mã lực, Enzo có thể tăng tốc từ 0 đến 100 km/h trong 3.6 giây. Thiết kế ngoại thất của nó được lấy cảm hứng từ công nghệ Formula 1.\n\nEnzo không phải là một xe du lịch bình thường. Nó được thiết kế cho những người yêu thích tốc độ cực hạn và trải nghiệm lái xe thật sự. Mỗi chi tiết được chú ý kỹ lưỡng để tối ưu hóa hiệu suất.\n\nHôm nay, Enzo vẫn được coi là một trong những siêu xe tốt nhất từng được sản xuất, và những chiếc còn lại đều là những tài sản quý báu của các bộ sưu tập siêu xe trên toàn thế giới."
+    },
+    {
+      "id": 5,
+      "title": "Ferrari 812 Superfast: Grand Tourer Tối Ưu",
+      "author": "Auto Magazine",
+      "date": "2024-05-12",
+      "image": "media/sf90.2.jpg",
+      "category": "Công nghệ",
+      "excerpt": "812 Superfast mang lại sự hoàn hảo giữa hiệu suất extreme và sự thoải mái lái xe...",
+      "content": "Ferrari 812 Superfast là mẫu grand tourer được thiết kế để cung cấp sự cân bằng hoàn hảo giữa hiệu suất cao và sự thoải mái. Với động cơ V12 6.2L có công suất 800 mã lực, nó là chiếc Ferrari mạnh nhất vào thời điểm sản xuất.\n\nThiết kế ngoại thất của 812 Superfast phản ánh sự tiến hóa của ngôn ngữ thiết kế Ferrari, với các đường nét mềm mượt nhưng vẫn giữ được sự ắng anh đặc trưng.\n\nCái tên \"Superfast\" không phải tình cờ. Nó có thể đạt vận tốc tối đa 340 km/h, và tăng tốc từ 0 đến 100 km/h trong 2.9 giây. Hệ thống treo được cải tiến để cung cấp sự thoải mái trên những chuyến đi dài.\n\n812 Superfast là lựa chọn hoàn hảo cho những người muốn một chiếc Ferrari không chỉ mạnh mẽ mà còn có thể sử dụng hàng ngày."
+    },
+    {
+      "id": 6,
+      "title": "Tương Lai của Ferrari: Hướng Tới Bền Vững",
+      "author": "Ferrari Corporate",
+      "date": "2024-06-08",
+      "image": "media/sf90.4.jpg",
+      "category": "Tin tức",
+      "excerpt": "Ferrari cam kết phát triển các công nghệ bền vững để bảo vệ tương lai môi trường...",
+      "content": "Trong những năm tới, Ferrari sẽ tiếp tục đầu tư vào các công nghệ bền vững. Cam kết của Ferrari không chỉ là về hiệu suất mà còn về trách nhiệm đối với môi trường.\n\nFerry đã công bố kế hoạch sản xuất những chiếc xe hybrid và điện hoàn toàn, giữ nguyên DNA thương hiệu đương thời giảm thiểu lượng khí thải.\n\nCông ty cũng đang đầu tư vào các vật liệu bền vững và quy trình sản xuất thân thiện với môi trường. Mỗi bước được thực hiện với sự cân nhắc kỹ lưỡng để đảm bảo Ferrari vẫn là ký hiệu của sự hoàn hảo.\n\nFerr cam kết rằng tương lai sẽ được xây dựng bởi các công nghệ tiên tiến, nhưng luôn với trái tim đó là đam mê và tình yêu dành cho những chiếc xe tuyệt vời."
+    }
+  ],
+  "orders": []
+}

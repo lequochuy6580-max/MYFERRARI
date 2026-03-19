@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari Blog - Tin Tức và Bài Viết</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .blog-header {
+            text-align: center;
+            margin: 40px 0;
+            color: white;
+        }
+
+        .blog-header h1 {
+            font-size: 3em;
+            color: #dc143c;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .blog-header p {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+
+        .filter-section {
+            display: flex;
+            gap: 10px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #dc143c;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-size: 1em;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background-color: #dc143c;
+            color: white;
+        }
+
+        .articles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .article-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(220, 20, 60, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        .article-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(220, 20, 60, 0.4);
+        }
+
+        .article-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: #f0f0f0;
+        }
+
+        .article-content {
+            padding: 20px;
+        }
+
+        .article-category {
+            display: inline-block;
+            background-color: #dc143c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+
+        .article-title {
+            font-size: 1.3em;
+            margin: 10px 0;
+            color: #333;
+            min-height: 50px;
+        }
+
+        .article-excerpt {
+            color: #666;
+            line-height: 1.6;
+            margin: 10px 0;
+            min-height: 60px;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #999;
+        }
+
+        .read-more-btn {
+            background-color: #dc143c;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 0.95em;
+        }
+
+        .read-more-btn:hover {
+            background-color: #b91230;
+        }
+
+        .article-author {
+            color: #666;
+        }
+
+        .article-date {
+            color: #999;
+        }
+
+        .no-articles {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid #dc143c;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .blog-header h1 {
+                font-size: 2em;
+            }
+
+            .articles-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+
+    <div class="container">
+        <div class="blog-header">
+            <h1>🏎️ Ferrari Blog</h1>
+            <p>Khám phá những câu chuyện tuyệt vời về thương hiệu Ferrari huyền thoại</p>
+        </div>
+
+        <div class="filter-section">
+            <button class="filter-btn active" data-filter="all">Tất Cả</button>
+            <button class="filter-btn" data-filter="Lịch sử">Lịch Sử</button>
+            <button class="filter-btn" data-filter="Công nghệ">Công Nghệ</button>
+            <button class="filter-btn" data-filter="Siêu xe">Siêu Xe</button>
+            <button class="filter-btn" data-filter="Tin tức">Tin Tức</button>
+        </div>
+
+        <div id="articles-container" class="articles-grid">
+            <div class="loading">Đang tải...</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer-container"></footer>
+
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
